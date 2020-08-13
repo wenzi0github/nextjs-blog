@@ -42,8 +42,9 @@ input,
 select,
 textarea {
     /* font: 12px/1.5 Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3",
+        FontAwesome, sans-serif;
 }
 h1,
 h2,
@@ -64,7 +65,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'source code pro', couriernew, courier, 'pingfang sc medium';
+    font-family: "source code pro", couriernew, courier, "pingfang sc medium";
 }
 small {
     font-size: 12px;
@@ -104,7 +105,7 @@ table {
     border-spacing: 0;
 }
 .clearfix:after {
-    content: '\00A0';
+    content: "\00A0";
     display: block;
     visibility: hidden;
     width: 0;
@@ -121,45 +122,6 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
-}
-header {
-    z-index: 10;
-    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-    height: 52px;
-}
-header .logo {
-    float: left;
-    display: block;
-    font-family: Courgette, cursive;
-    font-size: 25px;
-    font-weight: bolder;
-    color: #4d444f;
-    line-height: 25px;
-    margin: 12px 0 0 4px;
-}
-header nav {
-    float: right;
-}
-header ul {
-    display: block;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-header ul li {
-    display: block;
-    margin-left: 8px;
-}
-header ul li a {
-    padding: 14px 10px;
-    color: #333;
-    font-size: 16px;
-    display: block;
-}
-header ul li a:hover {
-    color: #4183c4;
-    background-color: #eee;
 }
 .container {
     padding-top: 20px;
@@ -207,7 +169,7 @@ footer {
         cursor: pointer;
     }
     nav em:after {
-        content: '\2630';
+        content: "\2630";
         font-size: 1.5em;
         margin-top: 10px;
         display: block;

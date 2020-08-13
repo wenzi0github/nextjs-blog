@@ -3,7 +3,7 @@ const ASide = () => {
         <div className="about">
             <h4 className="v-section-tit">About wenzi</h4>
             <article className="violet-about-det">
-                <p className="my-face"><img src="/data/img/avatar.png" alt="Hello wenzi!" width="40px" height="40px" id="J_myFace_img" /></p>
+                <p className="my-face"></p>
                 <p>Front-end Engineer，前端开发工程师</p>
                 <p>目前是一名前端开发工程师，主要负责前端规划、框架与架构、前端性能优化。</p>
                 <p>专注前端技术，关注交互体验，擅长web ajax开发。</p>
