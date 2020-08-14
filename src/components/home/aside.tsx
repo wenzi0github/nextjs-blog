@@ -28,6 +28,12 @@ const ASide = () => {
                 </ul>
             </article>
         </div>
+        <style jsx>{`
+            .aside {
+                width: 350px;
+                margin-left: 20px;
+            }    
+        `}</style>
     </aside>);
 }
 

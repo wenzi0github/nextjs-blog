@@ -43,8 +43,9 @@ select,
 textarea {
     /* font: 12px/1.5 Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif; */
     /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3",
-        FontAwesome, sans-serif;
+    font-family: 'Segoe UI', 'Lucida Grande', Helvetica, Arial,
+        'Microsoft YaHei', FreeSans, Arimo, 'Droid Sans', 'wenquanyi micro hei',
+        'Hiragino Sans GB', 'Hiragino Sans GB W3', FontAwesome, sans-serif;
 }
 h1,
 h2,
@@ -65,7 +66,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: "source code pro", couriernew, courier, "pingfang sc medium";
+    font-family: 'source code pro', couriernew, courier, 'pingfang sc medium';
 }
 small {
     font-size: 12px;
@@ -105,7 +106,7 @@ table {
     border-spacing: 0;
 }
 .clearfix:after {
-    content: "\00A0";
+    content: '\00A0';
     display: block;
     visibility: hidden;
     width: 0;
@@ -137,6 +138,11 @@ footer {
     font-size: 15px;
 }
 @media screen and (max-width: 1080px) {
+    .home-page .container {
+        display: block !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .content {
         width: auto;
         padding: 0 10px;
@@ -145,7 +151,7 @@ footer {
         width: 100%;
         float: none;
     }
-    .content .aside,
+    .aside,
     .sidenav {
         display: none;
     }
@@ -169,7 +175,7 @@ footer {
         cursor: pointer;
     }
     nav em:after {
-        content: "\2630";
+        content: '\2630';
         font-size: 1.5em;
         margin-top: 10px;
         display: block;

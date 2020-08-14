@@ -55,13 +55,9 @@ const Nav = () => {
                     font-size: 25px;
                     font-weight: bolder;
                     color: #4d444f;
-                    line-height: 25px;
-                    margin: 12px 0 0 4px;
+                    line-height: 70px;
                 }
                 header ul {
-                    display: block;
-                    display: -webkit-box;
-                    display: -ms-flexbox;
                     display: flex;
                 }
                 header ul li {
@@ -76,10 +72,13 @@ const Nav = () => {
                     box-sizing: border-box;
                     height: 70px;
                     line-height: 70px;
+                    border-radius: 100px;
+                    transition: all 120ms ease-in-out;
                 }
                 header ul li a:hover {
                     color: #4183c4;
                     background-color: #eee;
+                    border-radius: 0;
                 }
             `}</style>
         </>
