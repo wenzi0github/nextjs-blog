@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <style jsx>{`
                 .container {
-                    max-width: 1080px;
+                    max-width: 1330px;
                     margin: 0 auto;
                     display: flex;
                     justify-content: space-between;

@@ -27,12 +27,5 @@ app.prepare()
     })
     .catch((ex) => {
         console.error(ex.stack);
-        nodeLogger('[app][prepare]', 'catch', ex.stack);
-        nodeAtta({
-            env: ENV,
-            file: 'server.js',
-            fn: 'app.prepare.catch',
-            msg: JSON.stringify(ex.stack),
-        });
         process.exit(1);
     });
